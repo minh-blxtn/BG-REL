@@ -1,0 +1,16 @@
+# BG-REL R5: observed TOP-LEVEL packages for a new Windows/Python 3.12 environment.
+# Source: BGREL_ONE_SHOT_EVIDENCE_20261107_055446_166280.zip, meta/ENVIRONMENT_VERSIONS.json
+# IMPORTANT: this is NOT a validated complete transitive lock and is NOT a proof of fresh-machine replay.
+# Install torch==2.9.1 and torchvision==0.24.1 separately from official PyTorch CUDA 12.8/CPU index FIRST.
+# https://pytorch.org/get-started/previous-versions/ (v2.9.1)
+# Original requirements.txt (P0 only) is NOT replaced by this optional companion.
+
+numpy==1.26.4
+pydicom==3.0.1
+Pillow==11.3.0
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.7.2
+scikit-image==0.26.0
+torchxrayvision==1.5.7
+tqdm==4.70.1

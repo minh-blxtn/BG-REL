@@ -1,0 +1,39 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+.venvs/
+# Secrets
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Logs, runs, datasets and heavy model weights (>100MB)
+runs/
+outputs/
+checkpoints/
+*.log
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+*.safetensors
+*.zip
+*.tar.gz
+data/
+dataset/
+
+
+
+results/
